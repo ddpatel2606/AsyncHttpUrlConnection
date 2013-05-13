@@ -16,7 +16,7 @@ public class HttpMainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_http_main);
 		
-            // AsyncTask for networkCall
+            
 		HttpUrlAsynctask mtask =   new HttpUrlAsynctask();
 		mtask.execute();
 	}
