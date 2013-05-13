@@ -16,9 +16,9 @@ public class HttpMainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_http_main);
 		
-            
-		HttpUrlAsynctask mtask =   new HttpUrlAsynctask();
-		mtask.execute();
+        
+		 new HttpUrlAsynctask().execute();
+		
 	}
 
 	@Override
